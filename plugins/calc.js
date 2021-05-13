@@ -30,7 +30,7 @@ let handler = async (m, { conn, text }) => {
     throw 'Formato incorrecto, solo 0-9 y símbolo -, +, *, /, ×, ÷, π, e, (, ) son compatibles'
   }
 }
-handler.help = ['calc <expression>']
+handler.help = ['calc ᴱˢᶜʳᶦᵇᵉ ᵉˡ ᵉʲᵉʳᶜᶦᶜᶦᵒ']
 handler.tags = ['tools']
 handler.command = /^(calc(ulat(e|or))?|kalk(ulator)?)$/i
 handler.exp = 5
