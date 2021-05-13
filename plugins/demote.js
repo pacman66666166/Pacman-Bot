@@ -24,7 +24,7 @@ try {
 			conn.reply(m.chat, `*Target has demoted.*`, m)
 	}	
 }
-handler.help = ['*62xx*','*@user*','*(reply)*'].map(v => 'demote ' + v)
+handler.help = ['*62xx*','*@user*','*(reply)*'].map(v => 'Qᵘᶦᵗᵃ ᵃᵈᵐᶦⁿᶦˢᵗʳᵃᶜᶦᵒ́ⁿ  ' + v)
 handler.tags = ['group admin']
 handler.command = /^(demote)$/i
 handler.owner = false
