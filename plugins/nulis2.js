@@ -59,7 +59,7 @@ let handler  = async (m, { conn, args }) => {
     conn.sendFile(m.chat, outputPath, 'nulis.jpg', 'Made by Samu330:v', m)
   })
 }
-handler.help = ['n'].map(v => v + 'ulis2 <texto>')
+handler.help = ['n'].map(v => v + 'ᴱˢᶜʳᶦᵇᵉ ᵃˡᵍᵒ')
 handler.tags = ['tools']
 handler.command = /^nulis2$/i
 handler.owner = false
