@@ -9,7 +9,7 @@ let handler = function (m) {
     remoteJid: m.chat
   })
 }
-handler.help = ['del', 'delete']
+handler.help = ['del ᴱˡᶦᵐᶦⁿᵃ ᵐᵉⁿˢᵃʲᵉˢ ᵘⁿᶦᶜᵃᵐᵉⁿᵗᵉ ᵈᵉˡ ᵇᵒᵗ', 'delete ᴱˡᶦᵐᶦⁿᵃ ᵐᵉⁿˢᵃʲᵉˢ ᵘⁿᶦᶜᵃᵐᵉⁿᵗᵉ ᵈᵉˡ ᵇᵒᵗ']
 handler.tags = ['info']
 
 handler.command = /^del(ete)?$/i
