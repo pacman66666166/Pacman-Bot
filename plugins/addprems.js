@@ -11,7 +11,7 @@ let who
     m.reply(`*Listo usuario agregado como premium✅*\n\n*Numero : wa.me/${nomor.split("@s.whatsapp.net")[0]}\n*Expired:* 30Days\n*Thanks For Added Premium !*`)
   
 }
-handler.help = ['addprems <nomor>']
+handler.help = ['addprems  ᴺᵘᵐᵉʳᵒ']
 handler.tags = ['owner']
 handler.command = /^addprems$/i
 handler.rowner = true
