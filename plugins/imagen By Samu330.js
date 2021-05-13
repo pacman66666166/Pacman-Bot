@@ -5,8 +5,8 @@ let handler  = async (m, { conn, text }) => {
 if (!text) return conn.reply(m.chat, 'No hay texto para buscar imagen', m)
 let url = await fetch('https://api.fdci.se/sosmed/rep.php?gambar=' + encodeURIComponent(text))
 //let url = await fetch('https://api.fdci.se/sosmed/rep.php?gambar=' + encodeURIComponent(text))
-let samu = await url.json()
-let erest = samu[Math.floor(Math.random() * samu.length)]
+let susi = await url.json()
+let erest = samu[Math.floor(Math.random() * susi.length)]
             await conn.sendFile(m.chat, erest, '', 'FUERON DEMACIADAS IMAGENES DE *' + encodeURIComponent(text) + '* ESPERO TE GUSTE ESTA!!🥰', m)
 }
 handler.help = ['imagen']
