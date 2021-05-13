@@ -7,7 +7,7 @@ let handler = async m => m.reply(`
 ╭─「 Mi número por si quieres que agregue el bot a un grupo 」
 │ > Wa.me/4917243333338
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['donasi']
+handler.help = ['donasi ᴾᵒʳ ˢᶦ ᑫᵘᶦᵉʳᵉˢ ᶦⁿᶠᵒʳᵐᵃᶜᶦᵒⁿ ᵈᵉˡ ᵇᵒᵗ']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
 
