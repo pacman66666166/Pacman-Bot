@@ -1,16 +1,16 @@
 let fetch = require('node-fetch')
-//plugin by Samu330
+//plugin by susi
 
 let handler  = async (m, { conn, text }) => {
 //let text = args.join` `
-let [to, samu] = text.split`|`
+let [to, susi] = text.split`|`
 if (!to) throw `Formato incorrecto`
-if (!samu) throw `Ejemplo *.pubg samu|330*`
+if (!susi) throw `Ejemplo *.pubg susi|666*`
 
 if (!text) return conn.reply(m.chat, 'No hay texto para crear logo', m)
-let url = 'https://videfikri.com/api/textmaker/pubgmlogo/?text1=' + `${to}` + '&text2=' + `${samu}`
+let url = 'https://videfikri.com/api/textmaker/pubgmlogo/?text1=' + `${to}` + '&text2=' + `${susi}`
 
-conn.sendFile(m.chat, url, '', 'By @Samu330 👑', m)
+conn.sendFile(m.chat, url, '', 'By @Susi.li_ 👑', m)
 
 }
 handler.help = ['pubg']
