@@ -29,7 +29,7 @@ try {
 	}	
 }
 
-handler.help = ['*62xx*','*@user*','*(reply)*'].map(v => 'ban ' + v)
+handler.help = ['*62xx*','*@user*','*(reply)*'].map(v => 'ᴮᵃⁿᵉᵃᵈᵒˢ ' + v)
 handler.tags = ['owner']
 handler.command = /^ban$/i
 handler.owner = true
