@@ -55,7 +55,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       'host': '𝗛𝗼𝘀𝘁',
       'advanced': '𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱',
       'info': '𝗜𝗻𝗳𝗼',
-      '': 'No Category',
+      '': 'GAY',
     }
     for (let plugin of Object.values(global.plugins))
       if (plugin && 'tags' in plugin)
@@ -101,22 +101,23 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 *║┊:* ◦ 🚄Velocidad : *${neww}* ms
 *║┊:* ◦ 📲Sistema operativo : *${conn.user.phone.device_manufacturer}*
 *║┊:* ◦ 🪀version de *WhatsApp* : ${conn.user.phone.wa_version}
-*║┊:* 👑𝐌𝐲 𝐜𝐚𝐧𝐚𝐥 𝐝𝐞 𝐲𝐨𝐮𝐭𝐮𝐛𝐞
-*║┊:* https://www.youtube.com/watch?v=chMc57gjmkI&t=88s
-*║┊:* 𝑇ℎ𝑎𝑛𝑘𝑠 𝑡𝑜 
-*║┊:* @Samu330
-*║┊:* ❤Sam y Perry👑
-*╰═┅ৡৢ͜͡✦═══╡𝗦𝗮𝗺𝘂𝟯𝟯𝟬╞═══┅ৡৢ͜͡✦═╯*
+*║┊:* 👑Mi Instagram
+*║┊:* Susana_monterroza_
+*║┊:* Numero de la Dueña del Bot
+*║┊:* +49 172 81111117
+*╰═┅ৡৢ͜͡✦═══╡S͛͛uͧͧs͛͛iͥͥ666╞═══┅ৡৢ͜͡✦═╯*
 %readmore
 *╭═┅〘🛑 𝗢𝗯𝗲𝗱𝗲𝗰𝗲 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 🛑〙*
 *▌║✙*❌𝑷𝒓𝒐𝒉𝒊𝒃𝒊𝒅𝒐 𝒍𝒍𝒂𝒎𝒂𝒓 𝒂𝒍 𝒃𝒐𝒕📲
 *▌║✙*❌𝑷𝒓𝒐𝒉𝒊𝒃𝒊𝒅𝒐 𝒔𝒑𝒂𝒎 𝒂𝒍 𝒃𝒐𝒕☢
 *▌║✙*❌𝑵𝒐 𝒂𝒈𝒓𝒆𝒈𝒂𝒓 𝒂𝒍 𝒃𝒐𝒕 𝒂 𝒈𝒓𝒖𝒑𝒐𝒔♻
-*▌║✙*✅𝑺𝒖𝒔𝒄𝒓𝒊́𝒃𝒆𝒕𝒆 𝒂 𝒎𝒊 𝒄𝒂𝒏𝒂𝒍🙂
+*▌║✙*✅𝑺𝑺igueme en Instagram🙂
+*▌║➫ Bot By:*
+*▌║✙* ị¡-Ṣusi.li.
 %readmore`
     let header = conn.menu.header || '*╭═┅〘✨ %category 〙═╮*'
-    let body   = conn.menu.body   || '*▌║✙* %cmd%islimit'
-    let footer = conn.menu.footer || '*╰═┅ৡৢ͜͡✦═══╡🔥╞═══┅ৡৢ͜͡✦═╯*\n'
+    let body   = conn.menu.body   || '*┠❧ %cmd%islimit'
+    let footer = conn.menu.footer || '*╰═┅ৡৢ͜͡✦═══╡Susi.li╞═══┅ৡৢ͜͡✦═╯*\n'
     let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + `\n*%npmname@^%version*\n\`\`\`\%npmdesc\`\`\``
     let _text  = before + '\n'
     for (let tag in groups) {
