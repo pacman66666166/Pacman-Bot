@@ -12,8 +12,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Susi\n❏ 𝐿𝑎 𝑓𝑒𝑙𝑖𝑐𝑖𝑑𝑎𝑑 𝑛𝑜 𝑒𝑠 𝑒𝑙 𝑜𝑏𝑗𝑒𝑡𝑖𝑣𝑜...\n❏ 𝐄𝐬 𝐞𝐥 𝐜𝐚𝐦𝐢𝐧𝐨\n⚠️苏珊娜⚠️ '
-global.author = '➬🌤️SusiBot🌤️\n↳  🔥+49 172 43333338🥀\n↳  🌺Susi.li_🌺'
+global.packname = ' ⚠️𝑷𝒂𝒄𝒎𝒂𝒏⚠️ '
+global.author = ' 🔥+502 49020821🥀'
 
 global.multiplier = 69 // The higher, The harder levelup
 
