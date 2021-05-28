@@ -101,23 +101,20 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 *║┊:* ◦ 🚄Velocidad : *${neww}* ms
 *║┊:* ◦ 📲Sistema operativo : *${conn.user.phone.device_manufacturer}*
 *║┊:* ◦ 🪀version de *WhatsApp* : ${conn.user.phone.wa_version}
-*║┊:* 👑Mi Instagram
-*║┊:* Susana_monterroza_
-*║┊:* Numero de la Dueña del Bot
-*║┊:* +49 172 81111117
-*╰═┅ৡৢ͜͡✦═══╡S͛͛uͧͧs͛͛iͥͥ666╞═══┅ৡৢ͜͡✦═╯*
+*║┊:* Numero del Dueño del bot
+*║┊:* +502 49020821
+*╰═┅ৡৢ͜͡✦═══╡Pacman Bot╞═══┅ৡৢ͜͡✦═╯*
 %readmore
 *╭═┅〘🛑 𝗢𝗯𝗲𝗱𝗲𝗰𝗲 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 🛑〙*
 *▌║✙*❌𝑷𝒓𝒐𝒉𝒊𝒃𝒊𝒅𝒐 𝒍𝒍𝒂𝒎𝒂𝒓 𝒂𝒍 𝒃𝒐𝒕📲
 *▌║✙*❌𝑷𝒓𝒐𝒉𝒊𝒃𝒊𝒅𝒐 𝒔𝒑𝒂𝒎 𝒂𝒍 𝒃𝒐𝒕☢
 *▌║✙*❌𝑵𝒐 𝒂𝒈𝒓𝒆𝒈𝒂𝒓 𝒂𝒍 𝒃𝒐𝒕 𝒂 𝒈𝒓𝒖𝒑𝒐𝒔♻
-*▌║✙*✅𝑺igueme en Instagram🙂
 *▌║➫ Bot By:*
-*▌║✙* ị¡-Ṣusi.li.
+*▌║✙* Pacman
 %readmore`
     let header = conn.menu.header || '*╭═┅〘✨ %category 〙═╮*'
     let body   = conn.menu.body   || '*┠❧ %cmd%islimit'
-    let footer = conn.menu.footer || '*╰═┅ৡৢ͜͡✦═══╡Susi.li╞═══┅ৡৢ͜͡✦═╯*\n'
+    let footer = conn.menu.footer || '*╰═┅ৡৢ͜͡✦═══╡Pacman╞═══┅ৡৢ͜͡✦═╯*\n'
     let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + `\n*%npmname@^%version*\n\`\`\`\%npmdesc\`\`\``
     let _text  = before + '\n'
     for (let tag in groups) {
